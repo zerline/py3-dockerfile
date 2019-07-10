@@ -1,3 +1,3 @@
-FROM sagemath/sagemath:8.8
+FROM sagemath/sagemath-dev-py3:alpha
 
 COPY --chown=sage:sage . ${HOME}
